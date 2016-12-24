@@ -46,7 +46,6 @@ module SlackRubyBot
                           'don\'t tell anyone yet but',
                           'listen,',
                           'an old chinese guy once said:',
-                          'I remember years ago -',
                           'it just hit me that',
                           'I always say that']
 
