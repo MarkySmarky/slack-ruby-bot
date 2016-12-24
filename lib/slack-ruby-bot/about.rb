@@ -1,7 +1,5 @@
 module SlackRubyBot
   ABOUT = <<-ABOUT.freeze
-    #{SlackRubyBot::VERSION}
-    https://github.com/slack-ruby/slack-ruby-bot
-    https://twitter.com/dblockdotorg
+    It\'s me, Cooper #{SlackRubyBot::VERSION}
   ABOUT
 end

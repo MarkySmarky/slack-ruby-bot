@@ -1,7 +1,7 @@
 module SlackRubyBot
   module Commands
     class Default < Base
-      command 'about'
+      command '@cooper about'
       match(/^(?<bot>[[:alnum:][:punct:]@<>]*)$/u)
 
       def self.call(client, data, _match)
