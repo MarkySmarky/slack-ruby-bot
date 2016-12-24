@@ -1,3 +1,5 @@
+require 'faker'
+
 module SlackRubyBot
   module Commands
     class Unknown < Base
