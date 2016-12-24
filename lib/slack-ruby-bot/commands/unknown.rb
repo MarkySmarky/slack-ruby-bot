@@ -5,7 +5,7 @@ module SlackRubyBot
 
       def self.call(client, data, _match)
         # client.say(channel: data.channel, text: "Sorry <@#{data.user}>, I don't understand that command!", gif: 'idiot')
-        client.say(channel: data.channel, text: LiterateRandomizer.sentence, gif: 'idiot')
+        client.say(channel: data.channel, text: ::LiterateRandomizer.sentence, gif: 'idiot')
       end
     end
   end
