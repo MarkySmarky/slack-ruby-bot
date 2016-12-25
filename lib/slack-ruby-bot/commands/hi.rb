@@ -2,7 +2,7 @@ module SlackRubyBot
   module Commands
     class Hi < Base
       help do
-        title 'hi'
+        title '@cooper hi'
         desc 'says hello.'
       end
 
